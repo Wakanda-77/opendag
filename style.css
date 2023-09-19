@@ -1,0 +1,351 @@
+/* Reset standaard marges en padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* Basisstijlen voor de body */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container voor de pagina-inhoud */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Stijlen voor de header */
+header {
+    background-color: #094b00;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(3, 1, 100, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #55e290;
+}
+
+/* Stijlen voor secties */
+section {
+    background-color: #fff;
+    padding: 60px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Stijlen voor de inschrijvingsknop */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff5722;
+}
+
+/* Stijlen voor de knop */
+#colorChangeButton {
+    margin-top: 20px;
+}
+
+/* Stijlen voor de footer */
+footer {
+    background-color:#094b00;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+.background-img{
+    background-image: url("img/Sanne Bas - Curio - Terheijdenseweg 350-1.jpg") ;
+    height: 50vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .background-img2{
+    background-image: url("img/Sanne Bas - Curio - Terheijdenseweg 350-2.jpg") ;
+    height: 75vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+  .background-img2 h1{
+    padding: 70px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  vertical-align: middle;
+  text-align: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #fffffd;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(145, 223, 152, 0.8);
+    border: 1px solid rgba(145, 223, 152, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 250ms ease-in-out;
+    
+  }
+  .grid-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+  }
+  .logo{   
+    width: 200px;
+  }
+  .logo-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    
+  }
+  .logo-title img{
+    transition: all 250ms ease-in-out;
+  }
+  .logo-title img:hover{
+    border-radius: 20px;
+  }
+  .grid-blokken{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #fffffd;
+    padding: 10px;
+  }
+  .blok{
+    background-color: rgba(145, 223, 152, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 250ms ease-in-out;
+    
+  }
+  .blok:hover{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+  }
+.blok{
+    display: flex;
+    justify-content: center;
+}
+
+
+  .alfa{
+    width: 60px;
+  }
+  .men {
+    width: 100px;
+  }
+  .Docenten{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  .docent img{
+    border-radius: 50px;
+  }
+  .docent h3{
+    text-align: center;
+  }
+  .docent p {
+    text-align: center;
+  }
+  .docent .men{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 250ms ease-in-out;
+
+  }
+  .docent .men:hover{
+    width: 120px;
+  }
+  .fire{
+    width: 50px;
+  }
+  .versnel{
+    display: flex;
+    align-items: center;
+  }
+.icone{
+  width: 30px;
+}
+/*=======================================================*/
+/* Voor kleine schermen */
+@media screen and (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+  .container {
+      width: 100%;
+      padding: 0 10px;
+  }
+}
+
+/* Header aanpassingen voor kleine schermen */
+@media screen and (max-width: 768px) {
+  header {
+      padding: 10px 0;
+      width: 768px;
+  }
+  header h1 {
+      font-size: 1.5rem;
+  }
+  .logo-title {
+      width: auto;
+  }
+  .logo {
+      width: 75px;
+  }
+  nav ul {
+      flex-direction: column;
+      width: 200px;
+  }
+  nav ul li {
+      margin: 10px 0;
+  }
+  .container-nav{
+    width: 768px;
+  }
+}
+
+/* Background Image aanpassingen voor kleine schermen */
+@media screen and (max-width: 768px) {
+  .background-img2 h1 {
+      padding: 20px 0;
+      font-size: 1.2rem;
+  }
+  .background-img{
+    width: 768px;
+  }
+  .background-img2{
+    width: 768px;
+  }
+  .Rooster{
+    width: 768px; 
+  } 
+  }
+  
+
+
+
+
+/* Grid-items aanpassingen voor kleine schermen */
+@media screen and (max-width: 768px) {
+  .grid-item {
+      font-size: 16px;
+      padding: 15px;
+  }
+}
+
+/* Blokken aanpassingen voor kleine schermen */
+@media screen and (max-width: 768px) {
+  .blok {
+      font-size: 16px;
+      padding: 15px;
+  }
+}
+
+/* Docenten aanpassingen voor kleine schermen */
+@media screen and (max-width: 768px) {
+  .docent {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+  .docent img {
+      width: 80px;
+  }
+}
+
+/* Footer aanpassingen voor kleine schermen */
+@media screen and (max-width: 768px) {
+  footer {
+      padding: 10px 0;
+      width: 425px;
+  }
+  footer p {
+      font-size: 0.9rem;
+  }
+}
