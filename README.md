@@ -4,12 +4,6 @@ Beschrijving van je project en waarom het belangrijk is.
 
 ## opendag
 
-- [Inleiding](#inleiding)
-- [Technologieën](#technologieën)
-- [Installatie](#installatie)
-- [Gebruik](#gebruik)
-- [Bijdragen](#bijdragen)
-- [Licentie](#licentie)
 
 ## Inleiding
 
